@@ -8,11 +8,65 @@
     line-height: 1.4em;
 }
 
+a {
+    color: #0c91e1;
+}
+
+a.inner {
+    color: #ff6c00;
+}
+
+body {
+    padding-bottom: 5em;
+}
+
 .main-content {
     margin-left: 30%;
     margin-right: 30%;
-    text-align: left;
 }
+
+@media only screen and (min-width: 100px) {
+    .main-content {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-content {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .main-content {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .main-content {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .main-content {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .main-content {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
 
 .main-content img {
     width: 100%;
@@ -27,12 +81,14 @@ h1 {
     text-align: center;
     font-family: sans-serif;
     margin-bottom: 3em;
+    line-height: 1.2em
 }
 
 h2 {
     font-family: sans-serif;
     margin-bottom: 2em;
     margin-top: 2em;
+    line-height: 1.2em
 }
 
 .image-subtitle {
